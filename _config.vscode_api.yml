@@ -1,0 +1,28 @@
+# Site
+title: vscode-api
+subtitle: 'vscode-api中文版'
+description: ''
+keywords:
+author: chencheng
+language: zh-Hans
+timezone: 'Asia/Shanghai'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://github.com/daxia000/daxia000
+root: /vscode_api
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source_vscode_api
+public_dir: public/vscode_api
+tag_dir: tags/vscode_api
+archive_dir: archives/vscode_api
+category_dir: categories/vscode_api
+code_dir: downloads/code # Include code 文件夹，source_dir 下的子目录
+i18n_dir: :lang/vscode_api
+skip_render:

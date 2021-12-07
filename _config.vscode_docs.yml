@@ -1,0 +1,28 @@
+# Site
+title: vscode-docs
+subtitle: 'vscode-docs中文版'
+description: ''
+keywords:
+author: chencheng
+language: zh-Hans
+timezone: 'Asia/Shanghai'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://github.com/daxia000/daxia000
+root: /vscode_docs
+permalink: :title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source_vscode_docs
+public_dir: public/vscode_docs
+tag_dir: tags/vscode_docs
+archive_dir: archives/vscode_docs
+category_dir: categories/vscode_docs
+code_dir: downloads/code # Include code 文件夹，source_dir 下的子目录
+i18n_dir: :lang/vscode_docs
+skip_render:

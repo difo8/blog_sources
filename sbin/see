@@ -1,0 +1,1 @@
+ps -ef | grep -v grep | grep -v bash | grep hexo

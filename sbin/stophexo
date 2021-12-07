@@ -1,0 +1,8 @@
+#! /bin/bash
+
+hexoPIDs=(`ps -ef | grep -v grep | grep -v bash | grep hexo | awk '{print $2}'`);
+
+for((i=0; i < ${#hexoPIDs[@]}; i++)) do
+    echo "kill ${hexoPIDs[i]}";
+    kill -9 ${hexoPIDs[i]};
+done;
