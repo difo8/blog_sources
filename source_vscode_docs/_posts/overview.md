@@ -3,12 +3,12 @@ title: overview
 date: 2021-11-09 11:58:59
 tags:
 ---
-# Getting Started 开始
+# Getting Started——开始
 Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). Begin your journey with VS Code with these [introductory videos](https://code.visualstudio.com/docs/getstarted/introvideos).
 
 VSCode是一个可用于Windows、macOS和Linux桌面端的轻量且强大的源代码编辑器。它内置支持JavaScript、TypeScript和Node.js，并且有丰富的扩展生态来支持其他语言（如：C++、C#、Java、Python、PHP、Go）和运行时（如.NET和Unity）。用VSCode开始你的旅程：[介绍视频](https://code.visualstudio.com/docs/getstarted/introvideos)。
 
-# Visual Studio Code in Action VSCode实战
+# Visual Studio Code in Action——VSCode实战
 <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.css">
 <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.js"> </script>
 <style>
@@ -72,7 +72,7 @@ VSCode是一个可用于Windows、macOS和Linux桌面端的轻量且强大的源
   });
 </script>
 
-# Top Extensions 顶流扩展
+# Top Extensions——顶流扩展
 Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.
 
 启用额外的语言、主题、调试器、命令等等。成长越来越好的VSCode社区分享密决改善工作流程。
@@ -82,7 +82,7 @@ Enable additional languages, themes, debuggers, commands, and more. VS Code's gr
 <a href="https://marketplace.visualstudio.com/vscode" target="_blank">See more in the Marketplace</a>
 </p>
 
-# First Steps 初始步骤
+# First Steps——初始步骤
 To get the most out of Visual Studio Code, start by reviewing a few introductory topics:
 为了最有效利用VSCode，可以从查看几个介绍主题开始。
 
@@ -116,7 +116,7 @@ To get the most out of Visual Studio Code, start by reviewing a few introductory
 [Why VS Code?](https://code.visualstudio.com/docs/editor/whyvscode) - Read about the design philosophy and architecture of VS Code.
 [为什么选择VSCode？](https://code.visualstudio.com/docs/editor/whyvscode) - 阅读了解VSCode的设计哲学和结构。
 
-# Keyboard Shortcuts 快捷键
+# Keyboard Shortcuts——快捷键
 Increase your productivity with VS Code's keyboard shortcuts.
 用VSCode快捷键提升你的生产效率。
 
@@ -129,12 +129,12 @@ Increase your productivity with VS Code's keyboard shortcuts.
 [Customize Keyboard Shortcuts](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-editor) - Modify the default keyboard shortcuts.
 [自定义快捷键](https://code.visualstudio.com/docs/getstarted/keybindings#_keyboard-shortcuts-editor) - 修改默认快捷键。
 
-# Downloads 下载
+# Downloads——下载
 [Download VS Code](https://code.visualstudio.com/download) - Quickly find the appropriate install for your platform (Windows, macOS and Linux)
 
 [下载VSCode](https://code.visualstudio.com/download) - 为你的平台（Windows, macOS and Linux）快速发现合适的安装。
 
-# Privacy 隐私
+# Privacy——隐私
 By default, VS Code auto-updates to new versions, and collects usage data and crash report information. You may opt out of these defaults by disabling them as instructed below:
 
 默认情况下，VSCode自动更新到新版本，且收集使用数据和崩溃报告信息。你可以按照下面的指示来禁用这些默认设置：

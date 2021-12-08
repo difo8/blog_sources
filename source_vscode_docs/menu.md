@@ -10,7 +10,8 @@
 * [Additional Components 附加组件](/vscode_docs/setup/additional-components)
 
 ## GET STARTED 开始
-* [User Interface 用户接口](/vscode_docs/getstarted/userinterface)
+* [User Interface 用户界面](/vscode_docs/getstarted/userinterface)
+* [Settings 设置](/vscode_docs/getstarted/settings)
 ## USER GUIDE 用户指南
 ## LANGUAGES 语言
 * [Overview 总览](/vscode_docs/languages/)
@@ -40,3 +41,5 @@
 ## DATA SCIENCE 数据科学
 ## AZURE
 ## REMOTE 远程
+* [Windows Subsystem for Linux](/vscode_docs/remote/wsl)
+* [WSL Tutoral](/vscode_docs/remote/wsl-tutorial)

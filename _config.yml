@@ -5,8 +5,8 @@
 # Site
 title: vscode-docs
 subtitle: 'vscode-docs中文版'
-description: ''
-keywords:
+description: 'vscode docs 中文文档'
+keywords: 'vscode,doc,docs,中文,文档,翻译,汉化'
 author: chencheng
 language: zh-Hans
 timezone: 'Asia/Shanghai'
