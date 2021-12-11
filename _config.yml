@@ -8,7 +8,7 @@ subtitle: 'vscode-docs中文版'
 description: 'vscode docs 中文文档'
 keywords: 'vscode,doc,docs,中文,文档,翻译,汉化'
 author: chencheng
-language: zh-Hans
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -103,8 +103,11 @@ theme: book
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: git@github.com:daxia000/daxia000.git
+  branch: main
+- type: git
+  repo: https://gitee.com/daxia000/daxia000
   branch: main
 
 markdown:
