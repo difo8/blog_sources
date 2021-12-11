@@ -11,7 +11,9 @@
 
 ## GET STARTED 开始
 * [User Interface 用户界面](/vscode_docs/getstarted/userinterface)
+* [Themes 主题](/vscode_docs/getstarted/themes)
 * [Settings 设置](/vscode_docs/getstarted/settings)
+* [Key Bindings 键绑定](/vscode_docs/getstarted/keybindings)
 ## USER GUIDE 用户指南
 ## LANGUAGES 语言
 * [Overview 总览](/vscode_docs/languages/)
