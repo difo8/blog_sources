@@ -5,7 +5,7 @@
 * [Linux](/vscode_docs/setup/linux)
 * [macOS](/vscode_docs/setup/mac)
 * [Windows](/vscode_docs/setup/windows)
-* [Raspberry Pi 树莓派](/vscode_docs/setup/raspberryPi)
+* [Raspberry Pi 树莓派](/vscode_docs/setup/raspberry-pi)
 * [Network 网络](/vscode_docs/setup/network)
 * [Additional Components 附加组件](/vscode_docs/setup/additional-components)
 
