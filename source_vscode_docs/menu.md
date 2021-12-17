@@ -15,6 +15,7 @@
 * [Settings 设置](/vscode_docs/getstarted/settings)
 * [Key Bindings 键绑定](/vscode_docs/getstarted/keybindings)
 ## USER GUIDE 用户指南
+* [Extension Marketplace 扩展市场](/vscode_docs/user-guide/extension-marketplace)
 ## LANGUAGES 语言
 * [Overview 总览](/vscode_docs/languages/)
 * [JavaScript](/vscode_docs/languages/)
