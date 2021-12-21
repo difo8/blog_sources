@@ -1,6 +1,4 @@
 #! /bin/bash
 
 hexo clean --config _config.yml;
-# hexo clean --config _config.yml,_config.vscode_docs.yml;
-#hexo clean --config _config.yml,_config.vscode_api.yml
 rm -f _multiconfig.yml;

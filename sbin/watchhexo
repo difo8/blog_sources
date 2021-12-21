@@ -8,6 +8,9 @@ nohup hexo g --config _config.yml,_config.vscode_docs.yml -w >/dev/null 2>&1 &
 sleep 2
 nohup hexo g --config _config.yml,_config.vscode_api.yml -w >/dev/null 2>&1 &
 
+sleep 2
+nohup hexo g --config _config.yml,_config.yingyu.yml -w >/dev/null 2>&1 &
+
 nohup hexo s -s --config _config.yml >/dev/null 2>&1 &
 
 sleep 2

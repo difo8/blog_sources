@@ -1,5 +1,6 @@
 hexo g --config _config.yml;
 hexo g --config _config.yml,_config.vscode_docs.yml;
 hexo g --config _config.yml,_config.vscode_api.yml;
+hexo g --config _config.yml,_config.yingyu.yml;
 
 rm -f _multiconfig.yml;
