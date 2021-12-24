@@ -3,9 +3,6 @@ title: 英语
 subtitle: '考研英语'
 description: '考研,英语'
 keywords: '考研,英语,完型,阅读'
-author: chencheng
-language: zh-CN
-timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -25,4 +22,6 @@ archive_dir: archives/yingyu
 category_dir: categories/yingyu
 code_dir: downloads/code # Include code 文件夹，source_dir 下的子目录
 i18n_dir: :lang/yingyu
-skip_render:
+skip_render: 
+  - pdfjs/**
+  - yingyu/**
