@@ -1,6 +1,27 @@
-hexo g --config _config.yml;
-hexo g --config _config.yml,_config.vscode_docs.yml;
-hexo g --config _config.yml,_config.vscode_api.yml;
-hexo g --config _config.yml,_config.yingyu.yml;
+cd ~/Desktop/cc/projects/github/blog
 
+mkdir -p .tmp
+
+hexo g --config _config.yml,_config.vscode_docs.yml
+mv public/vscode_docs .tmp
+hexo clean 
+rm -f _multiconfig.yml
+
+hexo g --config _config.yml,_config.vscode_api.yml
+mv public/vscode_api .tmp
+hexo clean 
+rm -f _multiconfig.yml
+
+hexo g --config _config.yml,_config.yingyu.yml
+mv public/yingyu .tmp
+hexo clean 
+rm -f _multiconfig.yml
+
+hexo g --config _config.yml
+
+mv .tmp/vscode_docs public/
+mv .tmp/vscode_api public/
+mv .tmp/yingyu public/
+
+rm -rf .tmp
 rm -f _multiconfig.yml;

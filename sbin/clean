@@ -2,3 +2,4 @@
 
 hexo clean --config _config.yml;
 rm -f _multiconfig.yml;
+rm -rf .tmp

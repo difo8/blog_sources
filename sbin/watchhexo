@@ -1,17 +1,28 @@
 #! /bin/bash
 
+# 请先执行generate再执行此脚本
+
+cd ~/Desktop/cc/projects/github/blog
+
+mkdir -p .tmp
+mv public .tmp
+
 nohup hexo g --config _config.yml -w >/dev/null 2>&1 &
 
-sleep 2
+sleep 4
 nohup hexo g --config _config.yml,_config.vscode_docs.yml -w >/dev/null 2>&1 &
 
-sleep 2
+sleep 4
 nohup hexo g --config _config.yml,_config.vscode_api.yml -w >/dev/null 2>&1 &
 
-sleep 2
+sleep 4
 nohup hexo g --config _config.yml,_config.yingyu.yml -w >/dev/null 2>&1 &
 
+sleep 4
 nohup hexo s -s --config _config.yml >/dev/null 2>&1 &
 
-sleep 2
+sleep 4
 rm -f _multiconfig.yml
+rm -rf public
+mv .tmp/public public
+rm -rf .tmp
