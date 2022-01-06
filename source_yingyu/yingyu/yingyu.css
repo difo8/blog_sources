@@ -21,14 +21,19 @@
   margin-bottom: 0;
 }
 
-summary {
-  list-style: none;
-}
-summary::-webkit-details-marker {
-  display: none;
-}
-
 .off-canvas-content .book-content .book-post ul {
   list-style-type: none;
   margin-left: 15px;
+  margin-bottom: 0;
+}
+
+details summary {
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details div{
+  background-color: rgba(222, 215, 189, 0.5);
 }
