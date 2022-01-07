@@ -79,20 +79,20 @@ Once you have installed and set up VS Code, these topics will help you learn mor
 
 一旦你安装并设置的VSCode，这些主题可以帮助你更多的了解VSCode：
 
-* [Additional Components](/setup/additional-components) - Learn how to install Git, Node.js, TypeScript, and tools like Yeoman.
-  [附加组件](/setup/additional-components) - 学习如何安装Git、Node.js、TypeScript和工具，比如Yeoman.
+* [Additional Components](vscode_docs/setup/additional-components) - Learn how to install Git, Node.js, TypeScript, and tools like Yeoman.
+  [附加组件](/vscode_docs/setup/additional-components) - 学习如何安装Git、Node.js、TypeScript和工具，比如Yeoman.
 
-* [User Interface](/getstarted/userinterface) - A quick orientation to VS Code.
-  [用户接口](/getstarted/userinterface) - VSCode快速引导。
+* [User Interface](/vscode_docs/getstarted/userinterface) - A quick orientation to VS Code.
+  [用户接口](/vscode_docs/getstarted/userinterface) - VSCode快速引导。
 
-* [Basic Editing](/setup/codebasics) - Learn about the powerful VS Code editor.
-  [基础编辑](/setup/codebasics) - 了解VSCode强力的编辑器。
+* [Basic Editing](/vscode_docs/user-guide/codebasics) - Learn about the powerful VS Code editor.
+  [基础编辑](/vscode_docs/user-guide/codebasics) - 了解VSCode强力的编辑器。
 
-* [Code Navigation](/setup/editingevolved) - Move quickly through your source code.
-  [代码导航](/setup/editingevolved) - 快速浏览源代码。
+* [Code Navigation](/vscode_docs/setup/editingevolved) - Move quickly through your source code.
+  [代码导航](/vscode_docs/setup/editingevolved) - 快速浏览源代码。
 
-* [Debugging](/setup/debugging) - Debug your source code directly in the VS Code editor.
-  [调试](/setup/debugging) - 直接在VSCode编辑器里调试源代码。
+* [Debugging](/vscode_docs/setup/debugging) - Debug your source code directly in the VS Code editor.
+  [调试](/vscode_docs/setup/debugging) - 直接在VSCode编辑器里调试源代码。
 
 * [Proxy Server Support](/setup/network) - Configure your proxy settings.
   [支持代理服务器](/setup/network) - 配置你的代理设置。
