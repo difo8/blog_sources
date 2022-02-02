@@ -3,68 +3,108 @@ title: userinterface
 date: 2021-11-29 21:26:39
 tags:
 ---
-# User Interface
+# User Interface——用户界面
 
 At its heart, Visual Studio Code is a code editor. Like many other code editors, VS Code adopts a common user interface and layout of an explorer on the left, showing all of the files and folders you have access to, and an editor on the right, showing the content of the files you have opened.
 
-![code basics hero](images/userinterface/hero.png)
+本质上，VSCode是一个代码编辑器。像其他代码编辑器一样，VSCode采用了一个通用的用户界面和左侧资源管理器布局（展示了所有的你可以访问的文件和文件夹），右侧的编辑器（展示了你已经打开的文件的内容）。
 
-## Basic Layout
+![code basics hero](hero.png)
+
+## Basic Layout——基本布局
 
 VS Code comes with a simple and intuitive layout that maximizes the space provided for the editor while leaving ample room to browse and access the full context of your folder or project. The UI is divided into five areas:
 
+VSCode带有简单且直观的布局，可以最大化的给编辑器提供空间，同时给浏览和访问文件夹或工程的完整上下文留下足够的空间。UI分为了5个区域：
+
 * **Editor** - The main area to edit your files. You can open as many editors as you like side by side vertically and horizontally.
+  **编辑器** - 编辑文件的主要区域。你可以同时竖直地活着水平地打开任意你想打开数量的编辑器。
 * **Side Bar** - Contains different views like the Explorer to assist you while working on your project.
+  **侧边栏** - 包含了类似于资源管理器的不同的视图,在处理你的项目时来帮助你。
 * **Status Bar** - Information about the opened project and the files you edit.
+  **状态栏** - 关于打开的工程和你编辑的文件的信息。
 * **Activity Bar** -  Located on the far left-hand side, this lets you switch between views and gives you additional context-specific indicators, like the number of outgoing changes when Git is enabled.
+  **活动栏** - 位于最左侧，这使你可以在视图之间切换并提供额外的指定上下文的指示器，如当Git开启时显示出来的修改数量。
 * **Panels** - You can display different panels below the editor region for output or debug information, errors and warnings, or an integrated terminal. Panel can also be moved to the right for more vertical space.
+  **面板** - 你可以在编辑器区域的底部显示不同的面板，来显示输出或调试信息（错误和警告）或集成终端。面板也可以移动到右边来获取更多竖直空间。
 
 Each time you start VS Code, it opens up in the same state it was in when you last closed it. The folder, layout, and opened files are preserved.
 
-Open files in each editor are displayed with tabbed headers (Tabs) at the top of the editor region. To learn more about tabbed headers, see the [Tabs](/docs/getstarted/userinterface.md#tabs) section below.
+每次打开VSCode时，将打开你最后一次关闭时的状态。文件夹，布局和打开的文件会被保存。
 
->**Tip:** You can move the Side Bar to the right hand side (**View** > **Move Side Bar Right**) or toggle its visibility (`kb(workbench.action.toggleSidebarVisibility)`).
+Open files in each editor are displayed with tabbed headers (Tabs) at the top of the editor region. To learn more about tabbed headers, see the [Tabs](/vscode_docs/getstarted/userinterface#tabs) section below.
 
-## Side by side editing
+每个编辑器中打开的文件显示都带有编辑器顶部区域的标签。了解更多的标签可以查看[标签](/vscode_docs/getstarted/userinterface#tabs)。
+
+>**Tip:** You can move the Side Bar to the right hand side (**View** > **Move Side Bar Right**) or toggle its visibility (`⌘B`).
+
+>**提示** 你可以移动侧边栏到右侧（**视图** > **移动侧边栏到右边**）或者切换是否显示（`⌘B`）。
+
+## Side by side editing——并列编辑
 
 You can open as many editors as you like side by side vertically and horizontally. If you already have one editor open, there are multiple ways of opening another editor to the side of the existing one:
 
-* `kbstyle(Alt)` click on a file in the Explorer.
-* `kb(workbench.action.splitEditor)` to split the active editor into two.
-* **Open to the Side** (`kb(explorer.openToSide)`) from the Explorer context menu on a file.
-* Click the **Split Editor** button in the upper right of an editor.
-* Drag and drop a file to any side of the editor region.
-* `kbstyle(Ctrl+Enter)` (macOS: `kbstyle(Cmd+Enter)`) in the **Quick Open** (`kb(workbench.action.quickOpen)`) file list.
+你可以竖直地和水平地同时打开任意数量的编辑器。如果你已经打开了一个编辑器，有多种方法可以在已存在的编辑器侧边打开另一个。
 
-![Side by Side editing](images/userinterface/sidebyside.png)
+* `Alt` click on a file in the Explorer.
+  `Alt` 在资源管理器中点击文件。
+* `⌘\` to split the active editor into two.
+  `⌘\` 将活跃的编辑器一分为二。
+* **Open to the Side** (`⌃Enter`) from the Explorer context menu on a file.
+  **打开到侧边**（`⌃Enter`）来自于文件的资源管理器上下文菜单。
+* Click the **Split Editor** button in the upper right of an editor.
+  点击编辑器右上角的*划分编辑器*按钮。
+* Drag and drop a file to any side of the editor region.
+  拖动文件放到编辑器区域的任意侧边。
+* `Ctrl+Enter` (macOS: `Cmd+Enter`) in the **Quick Open** (`⌘P`) file list.
+  在**快速打开**（`⌘P`）文件列表中，`Ctrl+Enter` (macOS: `Cmd+Enter`)
+
+![并列编辑](sidebyside.png)
 
 Whenever you open another file, the editor that is active will display the content of that file. So if you have two editors side by side and you want to open file 'foo.cs' into the right-hand editor, make sure that editor is active (by clicking inside it) before opening file 'foo.cs'.
 
+无论何时打开又一个文件，活跃的编辑器将显示那个文件的内容。所以如果你有并列的两个编辑器，且你想打开`foo.cs`文件到右侧，确保在打开`foo.cs`文件前编辑器是活跃的（通过在其中点击）。
+
 By default editors will open to the right-hand side of the active one. You can change this behavior through the setting `workbench.editor.openSideBySideDirection` and configure to open new editors to the bottom of the active one instead.
 
-When you have more than one editor open you can switch between them quickly by holding the `kbstyle(Ctrl)` (macOS: `kbstyle(Cmd)`) key and pressing `kbstyle(1)`, `kbstyle(2)`, or `kbstyle(3)`.
+编辑器默认打开在活跃编辑器的右侧。你可以通过设置`workbench.editor.openSideBySideDirection`来修改这个行为，配置为打开新编辑器到活跃编辑器的底部。
+
+When you have more than one editor open you can switch between them quickly by holding the `Ctrl` (macOS: `Cmd`) key and pressing `1`, `2`, or `3`.
+
+当你有超过1个打开的编辑器时，你可以通过按住`Ctrl` (macOS: `Cmd`) 并按`1`, `2`, or `3`在它们之间快速切换。
 
 >**Tip:** You can resize editors and reorder them. Drag and drop the editor title area to reposition or resize the editor.
+>**提示** 你可以调整编辑器大小并重新排序。拖动并放置编辑器标题区域来重新定位或调整编辑器大小。
 
-## Minimap
+## Minimap——小地图
 
 A Minimap (code outline) gives you a high-level overview of your source code, which is useful for quick navigation and code understanding. A file's minimap is shown on the right side of the editor. You can click or drag the shaded area to quickly jump to different sections of your file.
 
-![minimap](images/userinterface/minimap.png)
+小地图（代码概览）提供一个源代码的高级总览，这对于快速导航和理解代码有用。一个文件的小地图展示在编辑器的右侧。你可以点击或拖动阴影区域来快速跳转到文件的不同部分。
 
->**Tip:** You can move the minimap to the left hand side or disable it completely by respectively setting `"editor.minimap.side": "left"` or `"editor.minimap.enabled": false` in your user or workspace [settings](/docs/getstarted/settings.md).
+![小地图](minimap.png)
 
-### Indent Guides
+>**Tip:** You can move the minimap to the left hand side or disable it completely by respectively setting `"editor.minimap.side": "left"` or `"editor.minimap.enabled": false` in your user or workspace [settings](/vscode_docs/getstarted/settings).
 
-The image above also shows indentation guides (vertical lines) which help you quickly see matching indent levels. If you would like to disable indent guides, you can set `"editor.renderIndentGuides": false` in your user or workspace [settings](/docs/getstarted/settings.md).
+>**提示：** 你可以分别在用户或工作空间[设置](/vscode_docs/getstarted/settings)中分别设置`"editor.minimap.side": "left`或`"editor.minimap.enabled": false`，来移动小地图到左侧或者完全禁止它。
 
-## Breadcrumbs
+### Indent Guides——缩进引导
+
+The image above also shows indentation guides (vertical lines) which help you quickly see matching indent levels. If you would like to disable indent guides, you can set `"editor.renderIndentGuides": false` in your user or workspace [settings](/vscode_docs/getstarted/settings).
+
+上面的图片也展示了索引引导（竖直线），这可以帮助你快速查看匹配的缩进等级。如果你想禁止缩进引导，你可以在用户或者工作空间[设置](/vscode_docs/getstarted/settings)中设置`"editor.renderIndentGuides": false`。
+
+## Breadcrumbs——面包屑
 
 The editor has a navigation bar above its contents called [Breadcrumbs](https://en.wikipedia.org/wiki/Breadcrumb_(navigation)). It shows the current location and allows you to quickly navigate between folders, files, and symbols.
 
-![Breadcrumbs](images/userinterface/breadcrumbs.png)
+编辑器上面有一个导航栏，它的内容叫做[面包屑](https://en.wikipedia.org/wiki/Breadcrumb_(navigation))。它展示了当前的位置并允许你快速在文件夹、文件和符号之间跳转。
 
-Breadcrumbs always show the file path and if the current file type has language support for symbols, the symbol path up to the cursor position. You can disable breadcrumbs with the **View** > **Show Breadcrumbs** toggle command. For more information about the breadcrumbs feature, such as how to customize their appearance, see the [Breadcrumbs](/docs/editor/editingevolved.md#breadcrumbs) section of the [Code Navigation](/docs/editor/editingevolved.md) article.
+![面包屑](breadcrumbs.png)
+
+Breadcrumbs always show the file path and if the current file type has language support for symbols, the symbol path up to the cursor position. You can disable breadcrumbs with the **View** > **Show Breadcrumbs** toggle command. For more information about the breadcrumbs feature, such as how to customize their appearance, see the [Breadcrumbs](/vscode_docs/setup/editingevolved#breadcrumbs) section of the [Code Navigation](/vscode_docs/setup/editingevolved) article.
+
+面包屑总是展示文件路径，如果当前的文件类型有语言符号支持，这些符号路径指到了光标的位置。你可以使用**视图** > **展示面包屑**切换命令来禁止面包屑。对于更多关于面包屑功能的信息，如怎么自定义外观，查看[代码导航](/vscode_docs/setup/editingevolved)文章中的[面包屑](/vscode_docs/setup/editingevolved#breadcrumbs)部分。
 
 ## Explorer
 
