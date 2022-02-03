@@ -20,9 +20,11 @@ function main() {
         let summary = detailsArr[i].getElementsByTagName("summary")[0];
         summary.innerHTML = "&emsp;&emsp;" + summary.innerHTML;
 
-        let pArr = detailsArr[i].getElementsByTagName("p");
-        for (let j = 0; j < pArr.length; j++) {
-            pArr[j].innerHTML = "&emsp;&emsp;" + pArr[j].innerHTML;
+        let divArr = detailsArr[i].getElementsByTagName("div");
+        for (let j = 0; j < divArr.length; j++) {
+            if (divArr[j].className == "text") {
+                divArr[j].innerHTML = "&emsp;&emsp;" + divArr[j].innerHTML;
+            }
         }
     }
 }

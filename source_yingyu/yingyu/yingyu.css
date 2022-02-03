@@ -1,29 +1,39 @@
 .off-canvas-content .book-content .book-post .table-wrapper {
-    margin-top: 0.3rem;
+  margin-top: 0.3rem;
 }
 
 .off-canvas-content .book-content .book-post .table-wrapper table {
-    width: 0;
+  width: 0;
 }
 
 .off-canvas-content .book-content .book-post .table-wrapper table th,
 .off-canvas-content .book-content .book-post .table-wrapper table td {
-    padding-top: 0.1rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.1rem;
-    padding-left: 0.5rem;
-    border: 0;
-    font-weight: normal;
-    white-space: nowrap;
+  padding-top: 0.1rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.5rem;
+  border: 0;
+  font-weight: normal;
+  white-space: nowrap;
 }
 
 .off-canvas-content .book-content .book-post p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-summary {
-    list-style: none;
+.off-canvas-content .book-content .book-post ul {
+  list-style-type: none;
+  margin-left: 15px;
+  margin-bottom: 0;
 }
-summary::-webkit-details-marker {
-    display: none;
+
+details summary {
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details div{
+  background-color: rgba(222, 215, 189, 0.5);
 }
