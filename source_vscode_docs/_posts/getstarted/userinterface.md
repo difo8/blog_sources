@@ -106,35 +106,58 @@ Breadcrumbs always show the file path and if the current file type has language 
 
 面包屑总是展示文件路径，如果当前的文件类型有语言符号支持，这些符号路径指到了光标的位置。你可以使用**视图** > **展示面包屑**切换命令来禁止面包屑。对于更多关于面包屑功能的信息，如怎么自定义外观，查看[代码导航](/vscode_docs/setup/editingevolved)文章中的[面包屑](/vscode_docs/setup/editingevolved#breadcrumbs)部分。
 
-## Explorer
+## Explorer——资源管理器
 
 The Explorer is used to browse, open, and manage all of the files and folders in your project. VS Code is file and folder based - you can get started immediately by opening a file or folder in VS Code.
 
+资源管理器用于浏览，打开和管理工程里的所有文件和文件夹。VSCode是基于文件和文件夹的——你可以通过在VSCode中打开文件或文件夹立即开始。
+
 After opening a folder in VS Code, the contents of the folder are shown in the Explorer. You can do many things from here:
 
+在VSCode中打开文件夹后，文件夹的内容会展示在资源管理器中。你可以参考这里做许多事情：
+
 * Create, delete, and rename files and folders.
+  创建、删除和重命名文件和文件夹。
 * Move files and folders with drag and drop.
+  使用拖放来移动文件和文件夹。
 * Use the context menu to explore all options.
+  使用上下文菜单来浏览所有的选项。
 
 >**Tip:** You can drag and drop files into the Explorer from outside VS Code to copy them (if the explorer is empty VS Code will open them instead)
 
-![Explorer Menu](images/userinterface/explorer_menu.png)
+>**提示：** 你可以从VSCode外部拖放文件到资源管理器中以复制它们（如果资源管理器你是空的，VSCode将用打开来代替）
+
+![资源管理器菜单](explorer_menu.png)
 
 VS Code works very well with other tools that you might use, especially command-line tools. If you want to run a command-line tool in the context of the folder you currently have open in VS Code, right-click the folder and select **Open in Command Prompt** (or **Open in Terminal** on macOS or Linux).
 
+VSCode在使用其他的你可能使用的工具时非常好用，尤其是命令行工具。如果你想在当前在VSCode中打开的文件夹的上下文中运行命令行工具，在文件夹中右键并选择**在命令提示符中打开**（macOS或Linux上为**在终端中打开**）。
+
 You can also navigate to the location of a file or folder in the native Explorer by right-clicking on a file or folder and selecting **Reveal in Explorer** (or **Reveal in Finder** on macOS or **Open Containing Folder** on Linux).
 
->**Tip:** Type `kb(workbench.action.quickOpen)` (**Quick Open**) to quickly search and open a file by its name.
+你也可以跳到本地资源管理器中文件或文件夹的位置，方法是在文件或文件夹上右击并选择**Reveal in explorer**（或macOS上的**Reveal in Finder**或Linux上的**Open Containing Folder**）。
 
-By default, VS Code excludes some folders from the Explorer (for example. `.git`). Use the `files.exclude` [setting](/docs/getstarted/settings.md) to configure rules for hiding files and folders from the Explorer.
+>**Tip:** Type `⌘P` (**Quick Open**) to quickly search and open a file by its name.
+
+>**提示：** 输入`⌘P`（**快速打开**）来通过名字快速搜索并打开一个文件。
+
+By default, VS Code excludes some folders from the Explorer (for example. `.git`). Use the `files.exclude` [setting](/vscode_docs/getstarted/settings) to configure rules for hiding files and folders from the Explorer.
+
+VSCode默认排除一些来自资源管理器的文件夹（如`.git`）。使用`files.exclude`[设置](/vscode_docs/getstarted/settings)来配置隐藏来自资源管理器的文件和文件夹的规则。
 
 >**Tip:** This is really useful to hide derived resources files, like `\*.meta` in Unity, or `\*.js` in a TypeScript project. For Unity to exclude the `\*.cs.meta` files, the pattern to choose would be: `"**/*.cs.meta": true`. For TypeScript, you can exclude generated JavaScript for TypeScript files with: `"**/*.js": {"when": "$(basename).ts"}`.
 
-### Multi-selection
+>**提示：** 这对于隐藏派生的资源文件特别有用，如Unity中的`\*.meta`或TypeScript工程中的`\*.js`。对于Unity要排除`\*.cs.meta`文件，选择的模式应为：`"**/*.cs.meta": true`。对于TypeScript，你可以使用：`"**/*.js": {"when": "$(basename).ts"}`来排除TypeScript生成的JavaScript。
+
+### Multi-selection——多重选择
 
 You can select multiple files in the **File Explorer** and **OPEN EDITORS** view to run actions (Delete, Drag and Drop, Open to the Side) on multiple items. Use the `Ctrl/Cmd` key with `click` to select individual files and `Shift` + `click` to select a range. If you select two items, you can now use the context menu **Compare Selected** command to quickly diff two files.
 
+你可以在**文件资源管理器**和**打开编辑器**视图中选择多个文件来在多个条目上执行动作（删除、拖放、打开到侧边）。使用`Ctrl/Cmd`加`click`选择单独的文件，使用`Shift` + `click`可选择一个范围。如果你选择了两个条目，现在你可以使用上下文菜单**比较所选**命令来快速比较两个文件。
+
 **Note:** In earlier VS Code releases, clicking with the `Ctrl/Cmd` key pressed would open a file in a new Editor Group to the side. If you would still like this behavior, you can use the `workbench.list.multiSelectModifier` setting to change multi-selection to use the `Alt` key.
+
+**注意：** 在早期的VSCode版本中，按`Ctrl/Cmd`键加点击将在新的编辑器组中打开文件
 
 ```json
 "workbench.list.multiSelectModifier": "alt"
