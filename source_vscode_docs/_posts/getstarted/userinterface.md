@@ -157,40 +157,56 @@ You can select multiple files in the **File Explorer** and **OPEN EDITORS** view
 
 **Note:** In earlier VS Code releases, clicking with the `Ctrl/Cmd` key pressed would open a file in a new Editor Group to the side. If you would still like this behavior, you can use the `workbench.list.multiSelectModifier` setting to change multi-selection to use the `Alt` key.
 
-**注意：** 在早期的VSCode版本中，按`Ctrl/Cmd`键加点击将在新的编辑器组中打开文件
+**注意：** 在早期的VSCode版本中，按`Ctrl/Cmd`键加点击将打开新编辑器组中的文件到侧边。如果你仍然想要这种行为，你可以使用`workbench.list.multiSelectModifier`设置来修改多重选择为使用`Alt`键。
 
 ```json
 "workbench.list.multiSelectModifier": "alt"
 ```
 
-### Filtering the document tree
+### Filtering the document tree——过滤文档树
 
 You can type to filter the currently visible files in the **File Explorer**. With the focus on the **File Explorer** start to type part of the file name you want to match. You will see a filter box in the top-right of the **File Explorer** showing what you have typed so far and matching file names will be highlighted. When you press the cursor keys to move up and down the file list, it will jump between matching files or folders.
 
+你可以在**文件资源管理器**中输入以过滤当前可见的文件。聚焦于**文件资源管理器**，同时开始输入你想要匹配的文件名的一部分。你将在**文件资源管理器**的右上角看到一个过滤盒，展示了迄今为止你输入的内容，且匹配的文件名将高亮显示。当你按光标键来向上或向下移动文件列表时，它将在匹配的文件或文件夹之间跳转。
+
 Hovering over the filter box and selecting **Enable Filter on Type** will show only matching files/folders. Use the 'X' **Clear** button to clear the filter.
 
-![Filtering files in the File Explorer](images/userinterface/file-explorer-filter.png)
+悬停在过滤盒上并选择**开启类型过滤**将只展示匹配的文件/文件夹。使用'X'**清除**按钮来清除过滤。
 
-### Outline view
+![在文件资源管理器中过滤文件](file-explorer-filter.png)
+
+### Outline view——大纲视图
 
 The Outline view is a separate section in the bottom of the File Explorer. When expanded, it will show the symbol tree of the currently active editor.
 
-![Outline view](images/userinterface/outline-view.png)
+大纲视图是文件资源管理器底部单独的部分。当展开时，它将展示当前活动的编辑器的符号树。
+
+![大纲视图](outline-view.png)
 
 The Outline view has different **Sort By** modes, optional cursor tracking, and supports the usual open gestures. It also includes an input box which finds or filters symbols as you type. Errors and warnings are also shown in the Outline view, letting you see at a glance a problem's location.
 
+大纲视图有不同的**排序**模式，可选的光标追踪，支持常见打开姿态。它也包括一个输入框，可以在你输入时发现或过滤符号。错误和警告也被展示在大纲视图中，使得你可以快速定位问题。
+
 For symbols, the view relies on information computed by your installed extensions for different file types. For example, the built-in Markdown support returns the Markdown header hierarchy for a Markdown file's symbols.
 
-![Markdown Outline view](images/userinterface/markdown-outline-view.png)
+对于符号，这个视图依赖于你安装的扩展对于不同的文件类型所计算的信息。比如，内置的Markdown支持返回Markdown头的层级来支持Markdown文件的符号。
 
-There are several Outline view [settings](/docs/getstarted/settings.md) which allow you to enable/disable icons and control the errors and warnings display (all enabled by default):
+![Markdown大纲视图](markdown-outline-view.png)
+
+There are several Outline view [settings](/vscode_docs/getstarted/settings) which allow you to enable/disable icons and control the errors and warnings display (all enabled by default):
+
+一些大纲视图[设置]()允许你开启/关闭图标，开启/关闭控制错误和警告的显示（所有都默认开启）：
 
 * `outline.icons` - Toggle rendering outline elements with icons.
+  `outline.icons` - 开关显示带图标的大纲元素。
 * `outline.problems.enabled` - Show errors and warnings on outline elements.
+  `outline.problems.enabled` - 展示大纲元素中的错误和警告。
 * `outline.problems.badges` - Toggle using badges for errors and warnings.
+  `outline.problems.badges` - 开关使用错误和警告的徽章。
 * `outline.problems.colors` - Toggle using colors for errors and warnings.
+  `outline.problems.colors` - 开关使用错误和警告的颜色。
 
-## Open Editors
+## Open Editors——打开编辑器
 
 At the top of the Explorer is a view labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in VS Code that you were working on. For example, a file will be listed in the **OPEN EDITORS** view if you:
 
