@@ -210,6 +210,8 @@ There are several Outline view [settings](/vscode_docs/getstarted/settings) whic
 
 At the top of the Explorer is a view labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in VS Code that you were working on. For example, a file will be listed in the **OPEN EDITORS** view if you:
 
+在资源管理器顶部有一个标记为**打开编辑器**的视图。
+
 * Make a change to a file.
 * Double-click a file's header.
 * Double-click a file in the Explorer.
