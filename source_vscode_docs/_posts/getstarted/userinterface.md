@@ -210,30 +210,44 @@ There are several Outline view [settings](/vscode_docs/getstarted/settings) whic
 
 At the top of the Explorer is a view labeled **OPEN EDITORS**. This is a list of active files or previews. These are files you previously opened in VS Code that you were working on. For example, a file will be listed in the **OPEN EDITORS** view if you:
 
-在资源管理器顶部有一个标记为**打开编辑器**的视图。
+在资源管理器顶部有一个标记为**打开编辑器**的视图。这是一个活动文件或预览的列表。这些是之前在VSCode中打开的。比如，如果你在做如下动作，文件将被列在**打开编辑器**视图中：
 
 * Make a change to a file.
+  修改文件。
 * Double-click a file's header.
+  双击文件的头部。
 * Double-click a file in the Explorer.
+  在资源管理器中双击一个文件。
 * Open a file that is not part of the current folder.
+  打开了不是当前文件夹中的文件。
 
 Just click an item in the **OPEN EDITORS** view, and it becomes active in VS Code.
+在**打开编辑器**视图中点击一个条目，它在VSCode中将变成活跃状态。
 
 Once you are done with your task, you can remove files individually from the **OPEN EDITORS** view, or you can remove all files by using the **View: Close All Editors** or **View: Close All Editors in Group** actions.
 
-## Views
+一旦你任务完成了，你可以单独从**打开编辑器**视图中移除文件，或者使用**View: Close All Editors** 或 **View: Close All Editors in Group**动作移除所有文件。
+
+## Views——视图
 
 The File Explorer is just one of the Views available in VS Code. There are also Views for:
+文件资源管理器仅仅是VSCode中可用的视图之一。还有视图用于：
 
 * **Search** - Provides global search and replace across your open folder.
+  **搜索** - 在打开的文件夹中提供全局搜索和替换。
 * **Source Control** - VS Code includes Git source control by default.
+  **源代码控制** - VSCode默认包含git源代码控制。
 * **Run** - VS Code's Run and Debug View displays variables, call stacks, and breakpoints.
+  **运行** - VSCode的运行和调试视图显示变量，调用栈和断点。
 * **Extensions** - Install and manage your extensions within VS Code.
+  **扩展** - 安装和管理VSCode扩展。
 * **Custom views** - Views contributed by extensions.
+  **自定义视图** - 扩展贡献的视图。
 
 > **Tip:** You can open any view using the **View: Open View** command.
+> **提示：** 你可以使用**View: Open View**命令打开任意视图。
 
-![views](images/userinterface/views.png)
+![views](views.png)
 
 You can show or hide views from within the main view and also reorder them by drag and drop.
 
