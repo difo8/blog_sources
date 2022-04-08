@@ -5,6 +5,8 @@ function main() {
     let title = document.getElementById("param_title").innerHTML;
     let pdfURL = window.location.protocol + "//" + window.location.host + "/yingyu/" + title + "/" + title + "-analysis.pdf";
     document.getElementById("analysis").setAttribute("href", "../pdfjs/web/viewer.html?file=" + pdfURL);
+    let pdfURL2 = window.location.protocol + "//" + window.location.host + "/yingyu/" + title + "/" + title + "-analysis2.pdf";
+    document.getElementById("analysis2").setAttribute("href", "../pdfjs/web/viewer.html?file=" + pdfURL2);
 
     // 处理下划线
     let uArr = document.getElementsByTagName("u");
