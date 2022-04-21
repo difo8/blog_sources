@@ -247,19 +247,22 @@ The File Explorer is just one of the Views available in VS Code. There are also 
 > **Tip:** You can open any view using the **View: Open View** command.
 > **提示：** 你可以使用**View: Open View**命令打开任意视图。
 
-![views](views.png)
+![视图](views.png)
 
 You can show or hide views from within the main view and also reorder them by drag and drop.
+你可以在主视图中展示或隐藏，也可以通过拖放来重新排序。
 
-![view management](images/userinterface/view-management.png)
+![视图管理](view-management.png)
 
-### Activity Bar
+### Activity Bar——活动栏
 
 The **Activity Bar** on the left lets you quickly switch between Views. You can also reorder Views by dragging and dropping them on the **Activity Bar** or remove a View entirely (right click **Hide from Activity Bar**).
 
-![activity bar context menu](images/userinterface/activity-bar-context-menu.png)
+左侧的**活动栏**使你可以快速走起视图间切换。你也可以重新对他们排序，方法是通过在**活动栏**上拖放或完全移除一个视图（右击**从活动栏隐藏**）。
 
-## Command Palette
+![活动栏上下文菜单](activity-bar-context-menu.png)
+
+## Command Palette——命令面板
 
 VS Code is equally accessible from the keyboard. The most important key combination to know is `kb(workbench.action.showCommands)`, which brings up the **Command Palette**. From here, you have access to all of the functionality of VS Code, including keyboard shortcuts for the most common operations.
 
@@ -267,15 +270,23 @@ VS Code is equally accessible from the keyboard. The most important key combinat
 
 The **Command Palette** provides access to many commands. You can execute editor commands, open files, search for symbols, and see a quick outline of a file, all using the same interactive window. Here are a few tips:
 
+**命令面板**提供了许多命令的入口。你可以执行编辑器命令、打开文件、搜索符号和查看一个文件的快速大纲，所有的命令都使用同样的交互窗口。这里有一些提示：
+
 * `kb(workbench.action.quickOpen)` will let you navigate to any file or symbol by typing its name
+* `⌘P` 将通过输入它的名字使你导航到任意文件或符号
 * `kb(workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup)` will cycle you through the last set of files opened
+* `⌃Tab` 将使得你循环浏览上次打开的一组文件
 * `kb(workbench.action.showCommands)` will bring you directly to the editor commands
+* `⇧⌘P` 将直接将你引至编辑器命令
 * `kb(workbench.action.gotoSymbol)` will let you navigate to a specific symbol in a file
+* `⇧⌘O` 将使你导航到文件中的一个特定符号
 * `kb(workbench.action.gotoLine)` will let you navigate to a specific line in a file
+* `⌃G` 将使你导航到文件中特定的一行
 
 Type `?` into the input field to get a list of available commands you can execute from here:
+输入`?`到输入框来获得一列可用的命令，这些命令你可以从这里执行：
 
-![Quick Open Help](images/userinterface/quickopenhelp.png)
+![快速打开帮助](quickopenhelp.png)
 
 ## Configuring the editor
 
