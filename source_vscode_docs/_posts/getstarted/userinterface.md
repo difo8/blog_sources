@@ -288,13 +288,17 @@ Type `?` into the input field to get a list of available commands you can execut
 
 ![快速打开帮助](quickopenhelp.png)
 
-## Configuring the editor
+## Configuring the editor——配置编辑器
 
 VS Code gives you many options to configure the editor. From the **View** menu, you can hide or toggle various parts of the user interface, such as the **Side Bar**, **Status Bar**, and **Activity Bar**.
 
-### Hide the Menu Bar (Windows, Linux)
+VSCode给你许多选项来配置编辑器，从**视图**菜单，你可以隐藏或者切换不同部分的用户界面，比如**侧边栏**、**状态栏**和**活动栏**。
+
+### Hide the Menu Bar (Windows, Linux)——隐藏菜单栏（Windows、Linux）
 
 You can hide the Menu Bar on Windows and Linux by changing the setting `window.menuBarVisibility` from `classic` to `toggle`. A setting of `toggle` means that a single press of the `kbstyle(Alt)` key will show the Menu Bar again.
+
+在Windows和Linux上你可以通过把设置`window.menuBarVisibility`从`classic` 修改为 `toggle`来隐藏菜单栏。`toggle`设置意味着单词按压`Alt`将
 
 You can also hide the Menu Bar on Windows and Linux with the **View** > **Toggle Menu Bar** command. This command sets `window.menuBarVisibility` from `classic` to `compact`, resulting in the Menu Bar moving into the Activity Bar. To return the Menu Bar to the `classic` position, you can execute the **View** > **Toggle Menu Bar** command again.
 
