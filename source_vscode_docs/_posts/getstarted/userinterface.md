@@ -298,11 +298,13 @@ VSCode给你许多选项来配置编辑器，从**视图**菜单，你可以隐�
 
 You can hide the Menu Bar on Windows and Linux by changing the setting `window.menuBarVisibility` from `classic` to `toggle`. A setting of `toggle` means that a single press of the `kbstyle(Alt)` key will show the Menu Bar again.
 
-在Windows和Linux上你可以通过把设置`window.menuBarVisibility`从`classic` 修改为 `toggle`来隐藏菜单栏。`toggle`设置意味着单词按压`Alt`将
+在Windows和Linux上你可以通过把设置`window.menuBarVisibility`从`classic` 修改为 `toggle`来隐藏菜单栏。`toggle`设置意味着单词按压`Alt`键将再次展示菜单栏。
 
 You can also hide the Menu Bar on Windows and Linux with the **View** > **Toggle Menu Bar** command. This command sets `window.menuBarVisibility` from `classic` to `compact`, resulting in the Menu Bar moving into the Activity Bar. To return the Menu Bar to the `classic` position, you can execute the **View** > **Toggle Menu Bar** command again.
 
-### Settings
+你也可以使用**视图** > **切换菜单栏**命令来隐藏Windows和Linux的菜单栏。这个命令将`window.menuBarVisibility`从`classic` 设置为 `compact`,这导致了菜单栏移入活动栏。要将菜单栏恢复到`classic` 位置，你可以再次执行**视图** > **切换菜单栏**命令。
+
+### Settings——设置
 
 Most editor configurations are kept in settings which can be modified directly. You can set options globally through user settings or per project/folder through workspace settings. Settings values are kept in a `settings.json` [file](/docs/getstarted/settings.md#settings-file-locations).
 
